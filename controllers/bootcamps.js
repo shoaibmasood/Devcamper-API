@@ -21,7 +21,7 @@ exports.createBootcamp = (req, res, next) => {
   res.status(200).json({ success: true, msg: 'Create new bootcamp ' });
 };
 
-// @desc        Update bootcamps
+// @desc        Update bootcamp
 // @route       PUT /api/v1/bootcamps/:id
 // @access      Private
 exports.updateBootcamp = (req, res, next) => {
